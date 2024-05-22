@@ -136,8 +136,8 @@ function HomePage() {
           </div>
         )}
         {products.map((product) => {
-          return (
-            <div className="product" key={product._id}>
+          return ( 
+            <div className="product " key={product._id}>
               <div className="product-preview">
                 <img
                   src={product.image}
